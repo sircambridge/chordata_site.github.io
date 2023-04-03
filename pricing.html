@@ -1,40 +1,37 @@
 ---
 title: Pricing
-heading: Find the perfect plan for your business
-description: All plans include our award winning sales optimization solution to track your sales in real time.
+heading: Get started for free
+description: Explore your algo ideas, pay as you go 
 pricing_table:
-  - name: Basic
+  - name: Free
     color: "#8e8e8e"
     features:
-      - text: $25 per month
+      - text: $0 per month
         highlight: true
-      - text: Up to 5 users
+      - text: Visual Strategy Editor/Backtesting
         highlight: false
-      - text: Basic lead scoring
+      - text: ❌ latest real-time data (only up to 2 days ago)
         highlight: false
-      - text: CRM
+      - text: ❌ discord channel access 
         highlight: false
-      - text: Basic reporting
+      - text: ❌ Export strategy as python or Pine Script
         highlight: false
-      - text: Sales map
-        highlight: false
+
     call_to_action:
       link: http://mysite.com?plan=basic
       text: Get started
   - name: Pro
     color: "#4a4a4a"
     features:
-      - text: $99 per month
+      - text: $30 per month
         highlight: true
-      - text: Everything in Basic
+      - text: Visual Strategy Editor/Backtesting
         highlight: false
-      - text: Up to 25 users
+      - text: ✅ latest real-time data
         highlight: false
-      - text: Advanced lead scoring
+      - text: ✅ discord channel access 
         highlight: false
-      - text: Pipeline management
-        highlight: false
-      - text: Advanced reporting
+      - text: ✅ Export strategy as python or Pine Script
         highlight: false
     call_to_action:
       link: http://mysite.com?plan=pro
@@ -44,15 +41,9 @@ pricing_table:
     features:
       - text: $299 per month
         highlight: true
-      - text: Everything in Basic and Pro
-        highlight: false
-      - text: Up to 100 users
-        highlight: false
-      - text: Campaign builder
-        highlight: false
-      - text: Machine learning
-        highlight: false
-      - text: Calendar
+
+
+      - text: ✅ Unicorn Rides
         highlight: false
     call_to_action:
       link: http://mysite.com?plan=professional
@@ -65,7 +56,7 @@ faq:
   - question: Do you offer pricing for nonprofit organizations?
     answer: Yes, send us a message and we'll set you up on our nonprofit pricing.
   - question: Questions?
-    answer: Contact us for any further questions at <a href="#">john@business.com</a>.
+    answer: Contact us for any further questions at <a href="#">not an email@email.com</a>.
 ---
 <div class="plans">
 	{% for plan in page.pricing_table %}
