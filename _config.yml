@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Chordata Template
-url: "https://proud-alligator.cloudvent.net"
+title: AlgoVue 
+# url: "https://proud-alligator.cloudvent.net"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -16,7 +16,7 @@ author:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Chordata Template
+  name: AlgoVue 
   links:
     - https://github.com/CloudCannon/hydra-jekyll-template
 
